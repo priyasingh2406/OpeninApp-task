@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Akaya+Telivigala&family=Cabin:wght@400;500;600&family=IBM+Plex+Sans&family=Montserrat:wght@600&family=Noto+Serif&family=Raleway:wght@300&family=Ultra&family=Yuji+Syuku&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Akaya+Telivigala&family=Cabin:wght@400;500;600&family=IBM+Plex+Sans&family=Lato:wght@300;400&family=Montserrat:wght@600&family=Noto+Serif&family=Raleway:wght@300&family=Ultra&family=Yuji+Syuku&display=swap');
+
+.left-side{
+    /* border: 2px solid black; */
+    width: 40%;
+    height: 100vh;
+    display: inline-block;
+    background-color: black;
+}
+.right-side{
+    /* border: 2px solid black; */
+    width: 60%; 
+    height: 100vh;
+    float: right;
+    display: flex;
+    background-color: #F5F5F5;
+}
+.left-side  h1{
+    /* border: 2px solid white; */
+    color: white;
+    font-size: 72px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    width: 32%;
+    margin-left: 11rem;
+    margin-top: 20rem;
+}
+.right-div{
+    /* border: 2px solid black; */
+    justify-content: center;
+    margin: auto; 
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.right-div h2{
+    font-weight: 700;
+    font-size: 36px; 
+    line-height: 43.88px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.t1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    /* margin-left: 5px; */
+}
+.google-button{
+    /* margin-top: 2rem; */
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 2rem;
+    border: none;
+    width: 50%; 
+}
+.GoogleOAuthProvider{
+    /* border: 2px solid black; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.apple-button{
+    background-color: white;
+    color: #858585;
+    font-family: 'Montserrat', sans-serif;
+    border: .2px solid black;
+    padding: 12px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 12px;
+    width: 46%;
+    cursor: pointer;
+    border: none;
+}
+.apple-button:hover{
+    background-color:  #858585;
+    color: white;
+}
+.div-under{
+    /* border: 2px solid black; */
+    margin-top: 2rem;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: white;
+}
+.div-under .l1{
+   font-size: 16px;
+   font-weight: 600;
+   font-family: 'Lato', sans-serif;
+   margin-left: 4rem;
+}
+.div-under .i1{
+    padding: 7px;
+    margin-left: 4rem;
+    margin-top: .5rem;
+    width: 70%;
+    background-color: #F5F5F5;
+    border: none;
+}
+.link{
+    color: #346BD4;
+    margin-top: .5rem;
+    margin-left: 4rem;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+.submit-button{
+    margin-top: .5rem;
+    margin-left: 4rem;
+    margin-bottom: .5rem;
+    width: 70%;
+    padding: 7px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.t2{
+    text-align: center;
+    margin-top: 1rem;
+    color:#858585;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.link-register{
+    color: #346BD4;
+    cursor: pointer;
+}
+@media only screen and (max-width: 828px){
+    .left-side{
+        display: none;
+    }
+
+    .right-side{
+        width: 100vw;
+    }
+
+    .right-div{
+        margin-top: 9rem;
+    }
+}
+
+@media only screen and (max-width: 468px) {
+    /* Left side page */
+    .left-side {
+     display: none;
+    }
+
+    .left-side h1 {
+        font-size: 4.5rem;
+        width: 32%;
+        margin: 20rem 0 0 11rem;
+        text-align: left;
+    }
+    /* right side page */
+    .right-side {
+        width: 100vw;
+        height: 100vh;
+        float: right;
+        display: flex;
+        background-color: #F5F5F5;
+    }
+    .right-div {
+        width: 100vw;
+    }
+    .google-button,
+    .apple-button {
+        margin-left: 12px;
+        margin-top: 1rem;
+    }
+    .div-under .i1 {
+        width: 70%;
+    }
+
+    .right-div h2{
+        font-weight: 700;
+        font-size: 36px; 
+        line-height: 43.88px;
+        margin-left: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+
+    .t1{
+        margin-left: 12px;
+    }
+   
+}

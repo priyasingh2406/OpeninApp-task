@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Akaya+Telivigala&family=Cabin:wght@400;500;600&family=IBM+Plex+Sans&family=Noto+Serif&family=Raleway:wght@300&family=Ultra&family=Yuji+Syuku&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+}
+
